@@ -1,4 +1,5 @@
 setupRequired(python)
 setupRequired(numpy)
 setupRequired(scipy)
-setupRequired(pykg_config)
+
+envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
